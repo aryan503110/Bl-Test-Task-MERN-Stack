@@ -1,0 +1,61 @@
+.edit_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0; /* Light background for a neutral look */
+  }
+  
+  .edit_form {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 25px;
+    width: 320px;
+    text-align: center;
+  }
+  
+  .edit_form h2 {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    color: #333333;
+  }
+  
+  .edit_form textarea,
+  .edit_form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+  }
+  
+  .edit_form textarea {
+    resize: none; /* Prevent resizing */
+  }
+  
+  .edit_form input:focus,
+  .edit_form textarea:focus {
+    outline: none;
+    border-color: #007bff; /* Blue border on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .edit_form button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit_form button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
